@@ -7,14 +7,12 @@ int main()
   double gpa; // user grade point average
   int examScore; // user entrance exam score
 
-  // gpa = -1.0;
-  // while (true)
-  while (gpa != 0.0)
+  while (true)
     {
       cout << "Please enter your GPA: ";
       cin >> gpa;
-      // if (gpa == 0.0)
-      //   break;
+      if (gpa == 0.0)
+        break;
       cout << "Please enter your entrance score: ";
       cin >> examScore;
 
